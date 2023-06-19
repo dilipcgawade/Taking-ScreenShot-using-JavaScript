@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taking Screenshot with JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- HTML to CANVAS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="container">
+            <h1>Demo Content</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident saepe corrupti vel optio delectus non asperiores tempora voluptate fugiat quasi, cupiditate culpa excepturi velit unde! Harum consequatur dicta, esse dolore impedit ad officiis dolorum adipisci.</p>
+            <img src="img/nature-3082832_1280.jpg" alt="">
+        </div>
+        <div id="preview-container"></div>
+    </div>
+    <div class="buttons">
+        <button id="capture-button">Capture Screenshot</button>
+        <a id="download-button" class="hide">Download Screenshot</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
